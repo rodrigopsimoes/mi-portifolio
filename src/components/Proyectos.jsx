@@ -1,5 +1,5 @@
 // src/components/Proyectos.jsx
-import React from 'react';
+import React from "react";
 
 function Proyectos() {
   const proyectos = [
@@ -11,7 +11,8 @@ function Proyectos() {
     },
     {
       titulo: "Aplicación de Tareas",
-      descripcion: "Una app para gestionar tareas con login y persistencia en localStorage.",
+      descripcion:
+        "Una app para gestionar tareas con login y persistencia en localStorage.",
       tecnologias: "React, Node.js, MongoDB",
       enlace: "https://github.com/tu-usuario/todo-app",
     },
@@ -19,14 +20,28 @@ function Proyectos() {
 
   return (
     <section id="proyectos" className="py-16 bg-gray-100">
-      <h2 className="text-3xl font-bold text-gray-800 text-center mb-8">Proyectos</h2>
-      <div className="max-w-4xl mx-auto grid gap-6 md:grid-cols-2">
+      <h2 className="text-3xl font-bold text-gray-800 text-center mb-8 sm:text-2xl">
+        Proyectos
+      </h2>
+      <div className="max-w-4xl mx-auto grid gap-6 md:grid-cols-2 sm:gap-4">
         {proyectos.map((proy, index) => (
-          <div key={index} className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow">
-            <h3 className="text-xl font-semibold text-gray-800">{proy.titulo}</h3>
-            <p className="text-gray-600 mt-2">{proy.descripcion}</p>
-            <p className="text-gray-500 mt-2">Tecnologías: {proy.tecnologias}</p>
-            <a href={proy.enlace} target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:underline mt-2 inline-block">
+          <div
+            key={index}
+            className="p-6 bg-white rounded-lg shadow-md hover:shadow-lg transition-shadow sm:p-4"
+          >
+            <h3 className="text-xl font-semibold text-gray-800 sm:text-lg">
+              {proy.titulo}
+            </h3>
+            <p className="text-gray-600 mt-2 sm:text-sm">{proy.descripcion}</p>
+            <p className="text-gray-500 mt-2 sm:text-sm">
+              Tecnologías: {proy.tecnologias}
+            </p>
+            <a
+              href={proy.enlace}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="text-blue-500 hover:underline mt-2 inline-block sm:text-sm"
+            >
               Ver en GitHub
             </a>
           </div>
