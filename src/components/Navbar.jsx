@@ -11,7 +11,7 @@ function Navbar() {
           alt="Tu Foto"
           className="w-24 h-24 rounded-full mx-auto mb-4 object-cover"
         />
-        <h2 className="text-xl font-bold">Tu Nombre</h2>
+        <h2 className="text-xl font-bold">Rodrigo</h2>
         <p className="text-gray-400">Desarrollador Fullstack</p>
       </div>
 
