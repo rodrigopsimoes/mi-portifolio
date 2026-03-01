@@ -33,7 +33,7 @@ function Contacto() {
             GitHub
           </a>
           <a
-            href="https://linkedin.com/in/rodrigo-simoes"
+            href="https://www.linkedin.com/in/simoesrodrigo/"
             target="_blank"
             rel="noopener noreferrer"
             className="contact-social-btn"
@@ -44,7 +44,7 @@ function Contacto() {
             LinkedIn
           </a>
           <a
-            href="mailto:rodrigo.simoes@example.com"
+            href="mailto:rodrigo.simoes18@gmail.com"
             className="contact-social-btn"
           >
             <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
