@@ -4,36 +4,28 @@ import "../styles/Portfolio.css";
 
 const experiencias = [
   {
-    periodo: "2023 – Actualidad",
-    titulo: "DevOps Engineer (Formación)",
-    empresa: "Self-learning & Proyectos personales",
+    periodo: "Mayo 2021 – Actualidad",
+    titulo: "DevSecOps & IT Automation Developer",
+    empresa: "VIEWNEXT (Grupo IBM)",
     descripcion:
-      "Aprendizaje activo de prácticas DevOps: CI/CD con Jenkins y GitHub Actions, containerización con Docker, scripting en Bash y Python, gestión de infraestructura, monitorización y automatización de despliegues.",
-    tags: ["Docker", "Jenkins", "CI/CD", "Bash", "GitHub Actions", "Linux"],
+      "Desarrollo de automatizaciones para operaciones de infraestructura y e-commerce. Implementación de flujos DevSecOps y gestión de infraestructura como código (IaC) para grandes clientes, optimizando procesos y garantizando la seguridad en el ciclo de vida del software.",
+    tags: ["DevSecOps", "Terraform", "Python", "AWS", "Bash", "IT Automation"],
   },
   {
-    periodo: "2019 – 2025",
-    titulo: "Administrador de Redes",
-    empresa: "Empresa de Tecnología",
+    periodo: "2019 – 2021",
+    titulo: "Soporte Técnico / Adaptación en España",
+    empresa: "Sector Hostelería & Servicios TI",
     descripcion:
-      "Gestión y mantenimiento de infraestructura de red (switches Cisco, routers, VLANs, firewall). Configuración de servidores Windows Server y Active Directory. Monitorización de red con herramientas como PRTG y Zabbix. Resolución de incidencias de nivel 2 y 3.",
-    tags: ["Cisco", "VLANs", "Windows Server", "Active Directory", "Firewall", "DNS/DHCP"],
+      "Etapa de transición profesional al llegar a España, compaginando roles en el sector servicios con soporte técnico puntual y especialización en el ecosistema tecnológico europeo.",
+    tags: ["Soporte TI", "Adaptación", "Gestión de incidencias"],
   },
   {
-    periodo: "2019 – 2025",
-    titulo: "Asistente Técnico de Informática",
-    empresa: "Servicio Técnico TI",
+    periodo: "2012 – 2019",
+    titulo: "Especialista en Infraestructura & Soporte Avanzado",
+    empresa: "Empresas de Tecnología (Brasil)",
     descripcion:
-      "Soporte técnico presencial y remoto a usuarios finales y empresas. Diagnóstico y reparación de hardware, instalación y configuración de sistemas operativos (Windows y Linux), mantenimiento preventivo y correctivo de equipos.",
-    tags: ["Soporte TI", "Hardware", "Windows", "Linux", "Redes LAN/WAN", "Help Desk"],
-  },
-  {
-    periodo: "2015 – 2019",
-    titulo: "Técnico de Informática",
-    empresa: "Empresa de Soporte",
-    descripcion:
-      "Instalación y configuración de equipos informáticos, periféricos y software. Gestión de cableado estructurado y montaje de racks. Primeros pasos en administración de servidores y bases de datos.",
-    tags: ["Cableado", "Configuración SW", "Servidores", "Bases de Datos"],
+      "Más de 7 años liderando proyectos de infraestructura local, administración de servidores (Windows y Linux) y soporte técnico de nivel avanzado. Gestión de redes corporativas, switches Cisco y Active Directory.",
+    tags: ["SysAdmin", "Networking", "Windows Server", "Linux Server", "Cisco", "Help Desk L3"],
   },
 ];
 
@@ -41,7 +33,7 @@ function Experiencia() {
   return (
     <section id="experiencia" className="section-dark">
       <h2 className="section-title">Experiencia</h2>
-      <p className="section-subtitle">Mi trayectoria profesional</p>
+      <p className="section-subtitle">Más de 10 años de trayectoria profesional</p>
       <div className="section-line"></div>
 
       <div className="timeline">

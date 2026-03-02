@@ -117,8 +117,8 @@ function Navbar() {
             }}
           />
           <div className="profile-avatar-fallback" style={{ display: "none" }}>RS</div>
-          <span className="sidebar-name">Rodrigo P. Simões</span>
-          <span className="sidebar-role">Network & DevOps Engineer</span>
+          <span className="sidebar-name">Rodrigo Pinheiro Simões</span>
+          <span className="sidebar-role">DevSecOps & IT Automation</span>
         </div>
 
         {/* Nav links */}
@@ -151,7 +151,7 @@ function Navbar() {
             </svg>
           </a>
           <a
-            href="https://linkedin.com/in/rodrigo-simoes"
+            href="https://www.linkedin.com/in/simoesrodrigo/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-link"
@@ -162,7 +162,7 @@ function Navbar() {
             </svg>
           </a>
           <a
-            href="mailto:rodrigo.simoes@example.com"
+            href="mailto:rodrigo.simoes18@gmail.com"
             className="social-link"
             title="Email"
           >

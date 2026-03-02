@@ -4,35 +4,35 @@ import "../styles/Portfolio.css";
 
 const proyectos = [
   {
+    icon: "🏗️",
+    titulo: "IaC con Terraform & AWS",
+    descripcion:
+      "Despliegue automatizado de infraestructura cloud utilizando Terraform. Gestión de estado remoto con S3 y DynamoDB, configuración de redes (VPC, Subnets) y servicios de cómputo siguiendo las mejores prácticas de seguridad.",
+    tags: ["Terraform", "AWS", "IaC", "Cloud Security"],
+    enlace: "https://github.com/rodrigopsimoes",
+  },
+  {
     icon: "🚀",
     titulo: "Jenkins CI/CD Automation",
     descripcion:
-      "Pipeline completo de CI/CD con Jenkins usando Configuration as Code (JCasC). Automatización del despliegue, configuración de credenciales, plugins y jobs desde cero con un solo script deploy.bat.",
-    tags: ["Jenkins", "CI/CD", "JCasC", "Docker", "Groovy"],
+      "Pipeline completo de CI/CD con Jenkins utilizando Configuration as Code (JCasC). Automatización del ciclo de vida de aplicaciones, desde el testeo hasta el despliegue automático en entornos productivos.",
+    tags: ["Jenkins", "CI/CD", "JCasC", "Docker", "DevSecOps"],
     enlace: "https://github.com/rodrigopsimoes",
   },
   {
-    icon: "🌐",
-    titulo: "Sistema de Monitorización de Red",
+    icon: "🐍",
+    titulo: "Scripts de Automatización Python/Bash",
     descripcion:
-      "Script en Bash para auditoría y monitorización de infraestructura de red. Detecta hosts activos, puertos abiertos, estadísticas de tráfico y genera informes automáticos por email.",
-    tags: ["Bash", "Network", "nmap", "Linux", "Cron"],
-    enlace: "https://github.com/rodrigopsimoes",
-  },
-  {
-    icon: "🐳",
-    titulo: "Entorno DevOps Dockerizado",
-    descripcion:
-      "Stack completo de desarrollo y testing usando Docker Compose. Incluye Jenkins, Gitea, Nexus y herramientas de monitorización, todo desplegado localmente con un solo comando.",
-    tags: ["Docker", "Docker Compose", "Jenkins", "DevOps"],
+      "Desarrollo de herramientas personalizadas para la automatización de tareas de IT y operaciones de infraestructura. Reducción drástica del tiempo de ejecución en procesos manuales críticos.",
+    tags: ["Python", "Bash", "Automation", "IT Operations"],
     enlace: "https://github.com/rodrigopsimoes",
   },
   {
     icon: "💼",
-    titulo: "Portafolio Personal",
+    titulo: "Portafolio Personal Premium",
     descripcion:
-      "Este mismo portafolio. Diseñado y desarrollado con React, Vite y TailwindCSS. Incluye animaciones CSS, diseño dark premium, componentización modular y despliegue continuo.",
-    tags: ["React", "Vite", "TailwindCSS", "CSS"],
+      "Mi escaparate profesional desarrollado con React, Vite y TailwindCSS. Un reflejo de mi perfil como DevSecOps, con un diseño oscuro, fluido y totalmente responsive.",
+    tags: ["React", "Vite", "TailwindCSS", "UI/UX"],
     enlace: "https://github.com/rodrigopsimoes/mi-portifolio",
   },
 ];
@@ -41,7 +41,7 @@ function Proyectos() {
   return (
     <section id="proyectos" className="section-card">
       <h2 className="section-title">Proyectos</h2>
-      <p className="section-subtitle">Lo que he construido</p>
+      <p className="section-subtitle">Soluciones de infraestructura y automatización</p>
       <div className="section-line"></div>
 
       <div className="projects-grid">

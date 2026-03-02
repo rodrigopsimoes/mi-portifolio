@@ -4,10 +4,10 @@ import fondo from "../assets/hero_bg.png";
 import "../styles/Home.css";
 
 const roles = [
-  "Administrador de Redes",
-  "Asistente Técnico TI",
-  "DevOps Engineer en formación",
-  "Linux & Systems Admin",
+  "DevSecOps Specialist",
+  "IT Automation Developer",
+  "Terraform Student",
+  "Systems & Network Expert",
 ];
 
 function Home() {
@@ -74,10 +74,10 @@ function Home() {
 
         {/* Description */}
         <p className="hero-description">
-          Más de <strong style={{ color: "#38bdf8" }}>6 años</strong> de experiencia
-          en soporte técnico, administración de redes y sistemas. Actualmente
-          formándome en <strong style={{ color: "#38bdf8" }}>DevOps</strong> para
-          automatizar infraestructuras y acelerar entregas de software.
+          Más de <strong style={{ color: "#38bdf8" }}>10 años</strong> de experiencia
+          en soporte técnico e infraestructura de IT. Actualmente trabajando en{" "}
+          <strong style={{ color: "#38bdf8" }}>Viewnext (Grupo IBM)</strong> como{" "}
+          <strong style={{ color: "#38bdf8" }}>DevSecOps</strong>, automatizando procesos y gestionando infraestructura como código.
         </p>
 
         {/* CTAs */}
