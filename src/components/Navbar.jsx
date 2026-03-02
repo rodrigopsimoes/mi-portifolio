@@ -2,7 +2,7 @@
 import React, { useState, useEffect } from "react";
 import "../styles/Portfolio.css";
 
-const AVATAR_URL = `${import.meta.env.BASE_URL}profile_avatar.png`;
+const AVATAR_URL = `${import.meta.env.BASE_URL}profile_avatar.jpeg`;
 
 const navItems = [
   {
