@@ -1,8 +1,7 @@
 // src/components/Navbar.jsx
 import React, { useState, useEffect } from "react";
 import "../styles/Portfolio.css";
-
-const AVATAR_URL = `${import.meta.env.BASE_URL}profile_avatar.jpeg`;
+import profileAvatar from "../assets/profile_avatar.jpeg";
 
 const navItems = [
   {
@@ -108,7 +107,7 @@ function Navbar() {
         {/* Profile */}
         <div className="sidebar-profile">
           <img
-            src={AVATAR_URL}
+            src={profileAvatar}
             alt="Rodrigo P. Simões"
             className="profile-avatar"
             onError={(e) => {
